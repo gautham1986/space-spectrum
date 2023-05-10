@@ -1,4 +1,3 @@
-import os
 from github import Github
 
 def lambda_handler(event, context):
