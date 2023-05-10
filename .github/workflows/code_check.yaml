@@ -1,7 +1,7 @@
 name: CI
 
 env:
-  github_token: ${{ secrets.CODEREVIEW }}
+  github_token: ${{ secrets.CODE_TOKEN }}
 
 on:
   pull_request:
