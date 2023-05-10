@@ -15,7 +15,7 @@ jobs:
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.CODE_TOKEN }}
           commit-message: Automated pull request
           title: My pull request title
           body: My pull request body
