@@ -21,7 +21,7 @@ jobs:
       uses: github/super-linter@v4
       with:
         # Set the GitHub token secret for the Super-Linter
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+        github_token: ${{ secrets.CODE_TOKEN }}
         # Enable all formatting checks for supported languages
         run_all_formatters: true
 
