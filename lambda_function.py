@@ -12,7 +12,7 @@ def lambda_handler(event, context):
     print('Starting functions\n---------------------------------------------')
 
     # Retrieve the token from the environment variable
-    token = os.environ.get('GITHUB_TOKEN')
+    token = os.environ.get( GITHUB_TOKEN')
 
     # Instantiate the Github object using the token
     g = Github(token)
